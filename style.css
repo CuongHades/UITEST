@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    padding: 0 70px;
+}
+
+.navbar-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;   
+    line-height: 27.28px;
+    text-align: left;
+    margin-right: 80px;
+}
+.first-text {
+    color: #4880FF;
+}
+
+.second-text {
+    color: #202224;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 30%;
+    padding: 0 10px;
+}
+
+.input-width {
+    width: 388px !important;
+}
+
+.badge-container {
+    position: relative;
+    margin-right: 13px;
+}
+
+.badge-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #F93C65;
+    border-radius: 18px;
+    position: absolute;
+    right: 0;
+}
+
+.badge-number {
+    color: white;
+}
+
+.flag-container {
+    margin-right: 27px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.right-nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.avatar-text {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    font-size: 12px;
+}
+
+.avatar-text-bold {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.body-container {
+    display: flex;
+}
+
+.menu {
+    width: 280px;
+}
+
+.item-list {
+    list-style: none;
+    line-height: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 12px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.right-line {
+    position: absolute;
+    width: 5px;
+    background-color:#4880FF;
+    height: 55px;
+    right: 110%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.image-icon {
+    font-size: 22px;
+}
+
+.item-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.title-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.6;
+    color: #202224;
+    margin-left: 45px;
+}
+
+.item:hover {
+    background-color:#4880FF;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.active-item {
+    background-color: #4880FF;
+    color: white;
+}
+
+.main-container {
+    background-color: #F5F6FA;
+    flex: 1;
+    padding: 16px;
+}
+.content-name {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 32px;
+    line-height: 43.65px;
+    font-weight: 700;
+    color: #202224;
+}
+
+.product-list {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.product-item {
+    width: 30%;
+    height: 497px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+}
+
+.product-name {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.money-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4880FF;
+}
+
+.product-image {
+   width: 300px;
+}
+
+.product-info {
+    padding: 16px 24px;
+}
+
+.product-heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-edit {
+    width: 126px;
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    /* border-radius: 8px; */
+    /* border-width: 0; */
+    padding: 4px 20px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: #E2EAF8;
+}
+
+.review-number {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    opacity: 0.4;
+}
